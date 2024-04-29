@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 640px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+body{
+    background-color: rgba(202, 175, 107, 0.445);
+
+}
+
+form{
+    align-items: center;
+    justify-content: space-between;
+}
+
+form input{
+    padding: 6px;
+}
+
+form button{
+    padding: 6px;
+    background-color: rgba(202, 175, 107, 0.445);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+table{
+    width: 640px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 18px;
+    background-color: rgba(128, 128, 128, 0.334);
+    border-radius: 10px;
+    
+}
+.theads{
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+tbody td{
+    text-align: center;
+    padding: 20px 0;
+}
